@@ -1,0 +1,76 @@
+/* components/CarCard.module.scss */
+
+.car-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Уменьшили размер карточки */
+}
+
+.car-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.car-details {
+  padding: 16px;
+}
+
+.car-brand {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.car-model {
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+
+.car-price {
+  font-size: 1.1em;
+  color: #007bff;
+}
+
+.car-year {
+  font-size: 1em;
+  margin-bottom: 8px;
+}
+
+.car-feature-list {
+  list-style: none;
+  padding: 0;
+}
+
+.car-feature-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.car-feature-icon {
+  margin-right: 8px;
+  color: #007bff;
+}
+
+.edit-button {
+  display: inline-block;
+  border: 0px;
+  margin: 15px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 8px 16px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
